@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<!--head scope-->
+<head>
+<meta name="viewport" content="widht=device-width initial-scale=1.0">
+<meta charset="utf-8">
+
+<!--Title-->
+<title>Netflix</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!--using css to do styling-->
+     <style>
+
+      /*
+        css applying on all
+      */
+       body{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgba(0, 0, 0, 0.4);
+        background-image: url(/Images/Netflix.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+       }
+
+
+       /*
+      css applyed inside header
+       */
+
+       .netflix{
+        font-size: 58px;
+        font-weight: bolder;
+        color: rgb(235, 56, 15);
+       }
+ 
+       .la-in{
+        font-size: 16px;
+        display: flex ;
+        flex-direction: row;
+        font-weight: bold;
+        justify-content: end;
+        margin-top: -48px;
+        color: white;
+       }
+
+       .lang{
+        border: 2px solid white;
+        background-color:black;
+        color: whitesmoke;
+        border-radius: 12px;
+        padding: 4px;
+        cursor: pointer;
+       }
+      
+       .sign{
+        border: 1px solid white;
+        background-color: whitesmoke;
+        color: black;
+        border-radius: 14px;
+        padding: 6px;
+        margin-left: 12px;
+        cursor: pointer;
+       /*hover effects on signin*/
+       }
+
+
+         /*
+       css applyed on section
+       */
+
+       section{ 
+        margin-top: -78px;
+        color: red;
+        height: 360px;
+        justify-content: center;
+        align-items: center;
+       }
+
+       .content{
+       font-size: 68px;
+       font-weight: bold;
+       display: grid;
+       text-align: center;
+       }
+
+       .content2{
+        font-size: 32px;
+       }
+       article{
+       height: 350px;
+       width: 650px;
+       margin-top: 32px;
+       margin-left: 290px;
+       }
+
+        .sec{
+        display: flex;
+        flex-direction: row;
+        margin-top: 14px;
+        justify-content: center;
+        border: 1px solid black;
+        color: white;
+        background-color: black;
+        padding: 14px;
+        border-radius: 12px;
+        
+       }
+       
+       .sec nav{
+        padding-left: 12px;
+        cursor: pointer;
+        ;
+       }
+
+       /*
+       css applying on figure and figcaption
+       */
+       figcaption{
+        font-size: 20px;
+        font-weight: bold;
+        color: yellow;
+       }
+
+       details{
+        border: 1px solid black;
+        border-radius: 12px;
+        background-color: black;
+        color: white;
+        padding: 24px;
+        font-size: 22px;
+       }
+
+       summary~span{
+        display: block;
+        font-size: 19px;
+        padding: 16px;
+       }
+         
+      /*
+      css applied on footer
+      */
+       footer{
+        font-size: 20px;
+        color: white;
+        border: 1px solid black;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr 3fr;
+        justify-content: space-evenly;
+       padding: 12px;
+       height : 200px;
+       }
+
+       .grp{
+        display: grid;
+        cursor: pointer;
+       }
+      
+       .popup{
+        font-size: 29px;
+        color: white;
+        background-color: rgb(13, 33, 104);
+        border: 2px solid black;
+       }
+
+       .imp{
+        border: 2px solid black;
+           color: white;
+           background-color: black;
+           border-radius: 23px;
+           font-size: 36px;
+           padding: 14px;
+           
+       }
+
+       .imp2{
+        border: 2px solid red;
+        color: white;
+        background-color: red;
+        border-radius: 23px;
+        font-size: 34px;
+        padding: 12px;
+     
+       }
+
+       .ip{
+        text-align: center;
+        box-shadow: 7px 6px 9px gray;
+       }
+     </style>
+
+    </head>
+     
+    <!--body scope-->
+     <body>
+         <!--header contents-->
+         <header>
+           
+          <div class="netflix">Netflix</div>
+
+
+         <div class="la-in">
+          <nav class="lang"><span class="bi bi-translate"></span>language</nav>
+          <nav class="sign">sign-in</nav>
+         </div>
+         </header>
+          
+
+          <!--article contents-->
+          <article>
+          <div class="sec">
+            <nav>
+              Popular Now
+            </nav>
+            <nav>
+              Plans
+            </nav>
+            <nav>
+              Reason to join
+            </nav>
+            <nav>
+              FAQs
+            </nav>
+         </div>
+        </article>
+
+        <!--section-->
+        <section>
+          <div class="content">
+            <span>Unlimited ,movies TV</span>
+            <span>Shows and more</span>
+            <div class="content2"><span >Start at Rs.149. cance at any time</span></div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="ip">
+            <span class="imp">Email Address</span>
+            <span class="imp2">Get Started</span>
+          </div>
+        </section>
+
+         <!--figure and figcaption details-->
+         <figure>
+          <img src="netflix movies.jpg" alt="coming soon">
+            <Figcaption>
+                       Popular Movies
+            </Figcaption>
+          </figure>
+
+
+          <!--dialogue-->
+          <div class="popup">FAQs</div>
+          <details>
+            <summary>What is Netflix?</summary>
+            <div><span>Netflix is a streaming service that offers a wide variety of award winning TV</span>
+             <span>Shows , movies, anime, documentation and more -on thousands of internet-</span>
+             <span>connected devices</span></div>
+             
+             <div><span></span><span></span><span></span></div>
+            </details>
+
+           <details>
+            <summary>How much does Netflix cost?</summary>
+            <div><span>watch Netflix on your smart phones ,tablets,smart tv, laptop , or streaming</span>
+              <span>devices , all for one fixed monthly fee.. Plans range from  Rs149 to Rs649 a month</span>
+              <span>No extra costs , no contracts.</span></div>
+            </details>
+
+              <details>
+            <summary>Where can i watch?</summary>
+             <div><span>watch anywhere anytime</span><span></span><span></span><span></span></div>
+            </details>
+
+            <details>
+            <summary>How do i cancel?</summary>
+             <div><span></span><span></span><span></span></div>
+            </details>
+
+            <details>
+            <summary>what can i watch on Netflix?</summary>
+            <div><span></span><span></span><span></span></div>
+          </details>
+
+          <details>
+            <summary>Is Netflix good for kids?</summary>
+           <div><span></span><span></span></div>
+          </details>
+
+
+         <!--footer contents-->
+         <footer>
+          
+           <div class="main">
+           <div class="grp"><span>FAQ</span><span>Invester Relation</span><span>Privacy</span><span>Speed Test</span></div>
+           </div>
+
+
+           <div class="main">
+           <div class="grp"><span>Help Center</span><span>Jobs</span><span>Cookies Preference</span><span>Legal Noties</span></div>
+           </div>
+
+
+           <div class="main">
+           <div class="grp"><span>Account</span><span>Ways to Watch</span><span>Corporate Information</span><span>Only on Netflix</span></div>
+           </div>
+
+
+           <div class="main">
+           <div class="grp"><span>Media Center</span><span>Terms of use</span><span>Contact Us</span></div>
+           </div>
+
+         </footer>
+
+     </body>
+     
+</html>
